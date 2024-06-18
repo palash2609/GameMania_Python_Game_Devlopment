@@ -10,7 +10,7 @@ FONT_SIZE = 40
 ARROW_SIZE = 30
 ARROW_OFFSET_X = 370
 HEADING_SIZE = 80
-SPACING = 200  # Increase this value to add more space between game names
+SPACING = 200 
 
 # Colors
 WHITE = (255, 255, 255)
@@ -26,8 +26,8 @@ heading_font = pygame.font.Font(None, HEADING_SIZE)
 clock = pygame.time.Clock()
 
 # Load images
-tic_tac_toe_img = pygame.image.load('tictactoe1.jpg')  # Update with your image path
-snake_img = pygame.image.load('snake1.png')  # Update with your image path
+tic_tac_toe_img = pygame.image.load('tictactoe1.jpg')  
+snake_img = pygame.image.load('snake1.png') 
 
 # Resize images if necessary
 tic_tac_toe_img = pygame.transform.scale(tic_tac_toe_img, (180, 180))
